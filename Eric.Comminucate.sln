@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LPet.Communicate", "LPet.Communicate.csproj", "{380D60EF-4808-40DC-B19D-3001396BAC5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eric.Comminucate", "Eric.Comminucate.csproj", "{380D60EF-4808-40DC-B19D-3001396BAC5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "..\Client\Client.csproj", "{2E623BEE-ECCF-4C97-BAD3-5650A3C50F42}"
 EndProject

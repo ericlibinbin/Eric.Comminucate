@@ -40,7 +40,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -55,9 +54,9 @@
       <Project>{8cfe19cf-5c87-4ddb-bbb7-75d9f4bcaab0}</Project>
       <Name>Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LPet.Communicate.csproj">
+    <ProjectReference Include="..\Eric.Comminucate.csproj">
       <Project>{380d60ef-4808-40dc-b19d-3001396bac5f}</Project>
-      <Name>LPet.Communicate</Name>
+      <Name>Eric.Comminucate</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

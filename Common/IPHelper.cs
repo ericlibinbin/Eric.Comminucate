@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Net;
 
-namespace LPet.Communicate
+namespace Eric.Comminucate
 {
     /// <summary>
     /// IP地址

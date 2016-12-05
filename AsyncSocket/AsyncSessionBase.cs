@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 using System.Threading;
 
-namespace LPet.Communicate
+namespace Eric.Comminucate
 {
     /// <summary>
     /// TCP异步通讯Base

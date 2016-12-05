@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LPet.Communicate
+namespace Eric.Comminucate
 {
     public delegate void ClientEventHandle(ClientEventArgs e);
     public delegate void DataEventHandle(DataEventArgs e);

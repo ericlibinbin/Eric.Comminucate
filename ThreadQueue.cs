@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace LPet.Communicate
+namespace Eric.Comminucate
 {
     public class ThreadQueue
     { 

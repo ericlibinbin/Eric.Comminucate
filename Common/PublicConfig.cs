@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LPet.Communicate
+namespace Eric.Comminucate
 {
     /// <summary>
     /// 全局属性信息

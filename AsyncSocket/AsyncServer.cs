@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Net.Sockets;
 using System.Net;
+using System.Net.Sockets;
 
-namespace LPet.Communicate
+namespace Eric.Comminucate
 {
     /// <summary>
     /// TCP异步服务端
@@ -42,7 +42,7 @@ namespace LPet.Communicate
         /// </summary>
         /// <param name="sender">发送者</param>
         /// <param name="e">Socket异步参数</param>
-        private void SocketAsyncEventArgs_Completed(object sender, SocketAsyncEventArgs e)
+        private void SocketAsyncEventArgs_Completed(object sender,SocketAsyncEventArgs e)
         {
             switch (e.LastOperation)
             {
@@ -233,7 +233,7 @@ namespace LPet.Communicate
             {
                 if (!IsActive)
                 {
-                    acceptSocket = new Socket(ipEndPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+                    acceptSocket = new System.Net.Sockets.Socket(ipEndPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
                     acceptSocket.Bind(ipEndPoint);
                     acceptSocket.Listen(100);
                     acceptArgs = new SocketAsyncEventArgs();
